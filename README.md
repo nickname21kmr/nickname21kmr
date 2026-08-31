@@ -13,10 +13,10 @@ A reproducible game-operations investigation agent with metric contracts, read-o
 
 > Verified locally: 17 automated tests and 40/40 deterministic offline cases. These validate tools, safety controls, replay, and evidence checks—not an LLM model score. The project uses synthetic data.
 
-### [HiveMind / AgentFlow — invited upstream contribution](https://github.com/Emiyaaaaa/HiveMind/pull/79)
-Invited by the project author to contribute an AutoGen adapter for AgentFlow. Implemented single-agent and team execution, streaming and tool-event translation, integration documentation, and unit tests; submitted as upstream PR #79.
+### [AgentFlow / HiveMind — AutoGen integration for a 1k+ star open-source project](https://github.com/Emiyaaaaa/HiveMind)
+After proactively reaching out to the maintainer, I earned the opportunity to build an AutoGen adapter for AgentFlow, a 1k+ star open-source multi-agent runtime. The contribution covers single-agent and team execution, streaming and tool-event translation, integration documentation, and unit tests.
 
-[Pull request](https://github.com/Emiyaaaaa/HiveMind/pull/79) · [Adapter implementation](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/tests/test_adapter.py) · [Integration guide](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/README.md)
+[Upstream project](https://github.com/Emiyaaaaa/HiveMind) · [Adapter implementation](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/tests/test_adapter.py) · [Integration guide](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/README.md)
 
 `Python` · `AutoGen` · `Agent integration` · `Testing`
 
