@@ -5,22 +5,25 @@ I build evidence-first analytics systems with explicit metric definitions, safe 
 ## Featured work
 
 ### [GameOps Investigator](https://github.com/nickname21kmr/gameops-investigator)
+
 A reproducible game-operations investigation agent with metric contracts, read-only SQL/MCP tools, cohort comparison, anomaly detection, and citation-checked reports.
 
 [Demo](https://github.com/nickname21kmr/gameops-investigator/blob/main/docs/demo.gif) · [Architecture](https://github.com/nickname21kmr/gameops-investigator/blob/main/docs/architecture.png) · [Safety boundary](https://github.com/nickname21kmr/gameops-investigator/blob/main/docs/SECURITY.md) · [40-case evaluation set](https://github.com/nickname21kmr/gameops-investigator/blob/main/evals/cases.jsonl)
 
 `Python` · `SQL` · `Pandas` · `SQLite` · `Streamlit` · `Plotly` · `MCP`
 
-> Verified locally: 17 automated tests and 40/40 deterministic offline cases. These validate tools, safety controls, replay, and evidence checks—not an LLM model score. The project uses synthetic data.
+**Validation:** 17 automated tests · 40/40 deterministic evaluation cases · explicit safety and evidence checks
 
-### [AgentFlow / HiveMind — AutoGen integration for a 1k+ star open-source project](https://github.com/Emiyaaaaa/HiveMind)
-After proactively reaching out to the maintainer, I earned the opportunity to build an AutoGen adapter for AgentFlow, a 1k+ star open-source multi-agent runtime. The contribution covers single-agent and team execution, streaming and tool-event translation, integration documentation, and unit tests.
+### [AgentFlow / HiveMind — AutoGen Integration](https://github.com/Emiyaaaaa/HiveMind)
+
+Developed an AutoGen adapter for AgentFlow, a 1k+ star multi-agent runtime, covering single-agent and team execution, streaming and tool-event translation, integration documentation, and unit tests.
 
 [Upstream project](https://github.com/Emiyaaaaa/HiveMind) · [Adapter implementation](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/tests/test_adapter.py) · [Integration guide](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/README.md)
 
 `Python` · `AutoGen` · `Agent integration` · `Testing`
 
 ### [EPUB Studio](https://github.com/nickname21kmr/epub-studio)
+
 A zero-dependency, local-first browser tool for arranging text and images into EPUB 3 books, with project save/restore and structural validation.
 
 [EPUB/ZIP core](https://github.com/nickname21kmr/epub-studio/blob/main/epub-core.js) · [Validation tests](https://github.com/nickname21kmr/epub-studio/tree/main/tests) · [Project README](https://github.com/nickname21kmr/epub-studio#readme)
