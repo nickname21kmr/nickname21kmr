@@ -16,9 +16,9 @@ A reproducible game-operations investigation agent with metric contracts, read-o
 
 ### [AgentFlow / HiveMind — AutoGen Integration](https://github.com/Emiyaaaaa/HiveMind)
 
-Developed an AutoGen adapter for AgentFlow, a 1k+ star multi-agent runtime, covering single-agent and team execution, streaming and tool-event translation, integration documentation, and unit tests.
+Contributed an AutoGen adapter to AgentFlow, a 1k+ star multi-agent runtime. The contribution was merged into upstream `main` and covers single-agent and team execution, streaming and tool-event translation, documentation, and unit tests.
 
-[Upstream project](https://github.com/Emiyaaaaa/HiveMind) · [Adapter implementation](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/tests/test_adapter.py) · [Integration guide](https://github.com/nickname21kmr/HiveMind/blob/feat/AutoGen/integrations/autogen/README.md)
+[Merged PR #80](https://github.com/Emiyaaaaa/HiveMind/pull/80) · [Upstream implementation](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/Emiyaaaaa/HiveMind/tree/main/integrations/autogen/tests) · [Integration guide](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/README.md)
 
 `Python` · `AutoGen` · `Agent integration` · `Testing`
 
