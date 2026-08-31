@@ -4,15 +4,13 @@ I build evidence-first analytics systems with explicit metric definitions, safe 
 
 ## Featured work
 
-### [FGO JP LiveOps Public-Data Analysis](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis)
+### [AgentFlow / HiveMind — AutoGen Integration](https://github.com/Emiyaaaaa/HiveMind)
 
-An evidence-first LiveOps case study that models public attention without relabeling it as DAU, retention, revenue, or causal uplift. It combines event-master governance, a blocked 2022–2025 model evaluation, residual anomaly review, and an internal data-product design.
+Contributed an AutoGen adapter to a 1k+ star upstream multi-agent runtime. The contribution was merged into upstream `main` and covers single-agent and team execution, streaming and tool-event translation, documentation, and unit tests.
 
-[Case study](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/docs/case_study.md) · [29-page report](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/report/FGO_JP_LiveOps_Public_Data_Case_Study_CN.pdf) · [Reproducible core](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/tree/main/src) · [Evidence boundary](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/config/analysis_source_policy.json)
+[Merged PR #80](https://github.com/Emiyaaaaa/HiveMind/pull/80) · [Upstream implementation](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/Emiyaaaaa/HiveMind/tree/main/integrations/autogen/tests) · [Integration guide](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/README.md)
 
-`Python` · `Pandas` · `NumPy` · `SciPy` · `Time series` · `Data product`
-
-**Validation:** 2022–2023 train · 2024 model selection/calibration · untouched 2025 test · 10 automated checks in CI
+`Python` · `AutoGen` · `Agent integration` · `Testing`
 
 ### [GameOps Investigator](https://github.com/nickname21kmr/gameops-investigator)
 
@@ -24,13 +22,15 @@ A reproducible game-operations investigation agent with metric contracts, read-o
 
 **Validation:** 17 automated tests · 40/40 deterministic evaluation cases · explicit safety and evidence checks
 
-### [AgentFlow / HiveMind — AutoGen Integration](https://github.com/Emiyaaaaa/HiveMind)
+### [FGO JP LiveOps Public-Data Analysis](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis)
 
-Contributed an AutoGen adapter to AgentFlow, a 1k+ star multi-agent runtime. The contribution was merged into upstream `main` and covers single-agent and team execution, streaming and tool-event translation, documentation, and unit tests.
+An evidence-first LiveOps case study that models public attention without relabeling it as DAU, retention, revenue, or causal uplift. It combines event-master governance, a blocked 2022–2025 model evaluation, residual anomaly review, and an internal data-product design.
 
-[Merged PR #80](https://github.com/Emiyaaaaa/HiveMind/pull/80) · [Upstream implementation](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/src/agentflow_autogen/adapter.py) · [Unit tests](https://github.com/Emiyaaaaa/HiveMind/tree/main/integrations/autogen/tests) · [Integration guide](https://github.com/Emiyaaaaa/HiveMind/blob/main/integrations/autogen/README.md)
+[Case study](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/docs/case_study.md) · [29-page report](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/report/FGO_JP_LiveOps_Public_Data_Case_Study_CN.pdf) · [Reproducible core](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/tree/main/src) · [Evidence boundary](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/config/analysis_source_policy.json)
 
-`Python` · `AutoGen` · `Agent integration` · `Testing`
+`Python` · `Pandas` · `NumPy` · `SciPy` · `Time series` · `Data product`
+
+**Validation:** 2022–2023 train · 2024 model selection/calibration · untouched 2025 test · 10 automated checks in CI
 
 ### [EPUB Studio](https://github.com/nickname21kmr/epub-studio)
 
