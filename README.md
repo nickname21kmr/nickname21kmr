@@ -4,6 +4,16 @@ I build evidence-first analytics systems with explicit metric definitions, safe 
 
 ## Featured work
 
+### [FGO JP LiveOps Public-Data Analysis](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis)
+
+An evidence-first LiveOps case study that models public attention without relabeling it as DAU, retention, revenue, or causal uplift. It combines event-master governance, a blocked 2022–2025 model evaluation, residual anomaly review, and an internal data-product design.
+
+[Case study](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/docs/case_study.md) · [29-page report](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/report/FGO_JP_LiveOps_Public_Data_Case_Study_CN.pdf) · [Reproducible core](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/tree/main/src) · [Evidence boundary](https://github.com/nickname21kmr/fgo-liveops-public-data-analysis/blob/main/config/analysis_source_policy.json)
+
+`Python` · `Pandas` · `NumPy` · `SciPy` · `Time series` · `Data product`
+
+**Validation:** 2022–2023 train · 2024 model selection/calibration · untouched 2025 test · 10 automated checks in CI
+
 ### [GameOps Investigator](https://github.com/nickname21kmr/gameops-investigator)
 
 A reproducible game-operations investigation agent with metric contracts, read-only SQL/MCP tools, cohort comparison, anomaly detection, and citation-checked reports.
