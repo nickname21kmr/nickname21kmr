@@ -32,6 +32,16 @@ An evidence-first LiveOps case study that models public attention without relabe
 
 **Validation:** 2022–2023 train · 2024 model selection/calibration · untouched 2025 test · 10 automated checks in CI
 
+### [Event Quality Gate](https://github.com/nickname21kmr/event-quality-gate)
+
+A zero-runtime-dependency data contract and quality gate for JSONL event streams. It validates records line by line, enforces schema and business rules, and produces deterministic JSON, Markdown, or text reports with CI-ready exit codes.
+
+[Contract example](https://github.com/nickname21kmr/event-quality-gate/blob/main/examples/contracts/liveops-event-v1.json) · [Validation engine](https://github.com/nickname21kmr/event-quality-gate/blob/main/src/event_quality_gate/validator.py) · [Regression tests](https://github.com/nickname21kmr/event-quality-gate/tree/main/tests) · [Roadmap](https://github.com/nickname21kmr/event-quality-gate/blob/main/ROADMAP.md)
+
+`Python` · `Data contracts` · `Data quality` · `JSONL` · `CLI` · `GitHub Actions`
+
+**Validation:** 10 automated tests · Python 3.11/3.12/3.13 CI · passing and failing quality-gate fixtures
+
 ### [EPUB Studio](https://github.com/nickname21kmr/epub-studio)
 
 A zero-dependency, local-first browser tool for arranging text and images into EPUB 3 books, with project save/restore and structural validation.
